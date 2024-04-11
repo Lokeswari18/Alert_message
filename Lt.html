@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Clickable Image</title>
+<style>
+    body, html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        font-family: Arial, sans-serif;
+      text-align: center;
+    }
+    body {
+        background-color: lightblue;
+    }
+    #container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        flex-direction: column;
+    }
+    #clickable-image {
+        cursor: pointer;
+        margin-top: 20px; /* Adjust as needed */
+    }
+   body p {
+    font-size: 3rem;
+    font-weight: bold;
+    
+    margin-bottom: 30px;
+   }
+</style>
+</head>
+<body>
+<p>Alert!!! Don't click on logo</p>
+<div id="container">
+    <a href="index.html" target="_blank">
+        <img id="clickable-image" src="bday.gif" alt="Clickable Image">
+    </a>
+</div>
+</body>
+</html>
